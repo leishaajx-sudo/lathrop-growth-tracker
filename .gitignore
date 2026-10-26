@@ -1,0 +1,18 @@
+# Environments and caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large or reproducible data (keep data/manifest.csv tracked)
+data/raw/*.pdf
+*.sqlite
+*.db
+
+# Secrets
+.env
+census_api_key.txt
