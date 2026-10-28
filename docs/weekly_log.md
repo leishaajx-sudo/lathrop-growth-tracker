@@ -30,3 +30,8 @@
 - Decisions made (link to decision log):
 - Risks:
 - Plan for next week:
+
+**Tue Oct 27**
+- Done: inspected April 2026 issued (30 pp) and finaled (16 pp) PDFs; wrote source_notes.md; ran pdfplumber test
+- Blocked: older permit links return 404; extract_text() mixes wrapped columns
+- Next: charter and KPIs (Wed Oct 28)

@@ -1,0 +1,29 @@
+30 pages
+PERMITS ISSUED BY DISTRICT (04/01/2026 TO 04/30/2026)
+Permit # Type Workclass Status Main Address Project District Parcel
+Application Date Issue Date Expiration Last Inspection Finaled Date Applied Online
+Zone Sq Ft Valuation Fee Total Assigned To
+04/09/2026 04/09/2026 10/21/2026 04/24/2026 No
+0 $4,500.00 $171.59 Alexis Baker
+Description: Extending gas line for future fire pit/grill
+(N) Electrical line for fountain/lighting
+RES-2026-00132 BLD_RES_Solar BLD_Solar - Roof Issued 1054 Shearwater Rd, Lathrop, CA 95330 Central Lathrop 19212008
+Mnt < 15 KW
+02/04/2026 04/14/2026 08/03/2026 Yes
+RL-MV Low Density Resid 0ential - Mossdale Village$28,950.00 $845.76
+Description: Battery Only Permit 15kw
+RES-2026-00007 BLD_RES_Solar BLD_Solar - Roof Issued 651 Rosedale Wy, Lathrop, CA 95330 Central Lathrop 19217050
+Mnt > 15 KW
+01/06/2026 04/23/2026 07/05/2026 05/01/2026 Yes
+VR-CL Variable Density R 0esidential $21,000.00 $1,571.23 Jenna Ortega
+Description: ESS ONLY
+40.5kwh storage system
+RES-2026-00405 BLD_RES_Reroof BLD_Reroof (Non Complete 631 Milestone Dr, Lathrop, CA 95330 Central Lathrop 19616019
+Structural)
+04/23/2026 04/23/2026 11/02/2026 05/04/2026 05/04/2026 No
+0 $18,950.00 $331.46 Shayne Prudente
+Description: tear off existing composite, sheath property & reroof using cool roof composite
+RES-2026-00010 BLD_RES_Pool BLD_POOL Issued 533 Chimes St, Lathrop, CA 95330 Central Lathrop 19206028
+01/06/2026 04/28/2026 07/05/2026 Yes
+VR-CL Variable Density R 0esidential $59,000.00 $2,584.0
+tables found: 3
