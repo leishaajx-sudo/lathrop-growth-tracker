@@ -35,3 +35,8 @@
 - Done: inspected April 2026 issued (30 pp) and finaled (16 pp) PDFs; wrote source_notes.md; ran pdfplumber test
 - Blocked: older permit links return 404; extract_text() mixes wrapped columns
 - Next: charter and KPIs (Wed Oct 28)
+
+## Wed Oct 28
+- Done: wrote docs/charter.md and docs/kpis.md and pushed both.
+- Blocked: nothing.
+- Next: send five interview requests and write the backlog (Thu Oct 29).
