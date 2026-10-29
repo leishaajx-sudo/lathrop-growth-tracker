@@ -62,7 +62,7 @@ Which district of Lathrop has the strongest and most reliable new-housing growth
 | Permits split across page breaks or text collides | H | M | Parse words by position, as one stream across pages |
 | Public sources disagree on prices and income | H | M | Triangulation table; one primary source per metric |
 | Interviews fall through | M | M | Send five requests; use public city staff material as a fallback |
-| Scope creep | H | M | Weeks 4 and 5 are stretch goals; drop them before the validation work |
+| Scope creep | H | M | Context layers (Week 4) and score and forecast (Week 5) shrink first; the Week 2-3 parser and validation work is never cut |
 
 ## 9. Stakeholders and interviews
 
