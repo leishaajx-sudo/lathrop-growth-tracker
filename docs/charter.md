@@ -1,65 +1,67 @@
 # Project Charter: Lathrop Growth Tracker
 
-*Fill in every section marked with a prompt. Target: one page. Finish by Fri Oct 23. Delete the prompts when you are done.*
-
-**Owner:** Leisha Jhamb  **Start:** Oct 21, 2026  **Target finish:** Nov 29, 2026  **Version:** 0.1
+**Owner:** Leisha Jhamb  **Start:** Oct 26, 2026  **Target finish:** Dec 6, 2026  **Version:** 1.0 (draft)
 
 ## 1. Business question
 
-*One sentence. Use the form "Where/Which/How ..., so that [someone] can [decide something]."*
+Which district of Lathrop has the strongest and most reliable new-housing growth, so a small local business can decide where to open in the next 12 months?
 
 ## 2. Decision and stakeholder persona
 
-*Who makes the decision this project supports? Give them a role, a situation, and a deadline. Example: "An owner of a small cafe or fitness studio deciding which Lathrop district to open in within the next 12 months."*
-
-- **Persona:**
-- **Decision they face:**
-- **What they would do differently based on the answer:**
+- **Persona:** The owner of a small cafe or fitness studio in the Lathrop area.
+- **Decision they face:** Which district to open in within the next 12 months.
+- **What they would do differently:** Choose the district where finished homes are arriving fastest and building will continue, instead of going by reputation or general population figures.
 
 ## 3. Scope
 
 | In scope | Out of scope |
 | --- | --- |
-| Residential and commercial permits in the city's monthly reports | Parcel-level or address-level site selection |
-| *(add)* | Financial projections for a specific business |
-| *(add)* | *(add)* |
+| Monthly City of Lathrop permit reports (issued and finaled), all districts | Address-level or parcel-level site selection |
+| City residential pipeline report (approved projects and units) | Financial projections for a specific business |
+| Home values (Zillow) and household data (Census ACS) as context | Foot-traffic, sales, or customer data |
+| A district opportunity score with sensitivity testing | Predicting home prices |
 
 ## 4. Success criteria
 
-*Three statements a reviewer could check. Example: "The parsed permit counts match the district totals printed in at least 95% of monthly reports."*
-
-1.
-2.
-3.
+1. For every report parsed, the district counts and the grand total match the totals printed in the report, and every mismatch is explained in `docs/validation_log.md`.
+2. Someone else can rebuild the database and dashboard from the README alone.
+3. A one-page memo recommends one district, gives three numbered findings, states its limits, and has been reviewed by at least one person outside the project.
 
 ## 5. Deliverables and dates
 
 | Deliverable | Due | Done when |
 | --- | --- | --- |
-| Clean permit database with data dictionary | Nov 1 | One command rebuilds it from the raw PDFs |
-| SQL queries and EDA notebook | Nov 8 | Five findings, each with a number |
-| Context layers and source triangulation | Nov 15 | Written reason for the primary source of each metric |
-| Opportunity score, sensitivity analysis, forecast | Nov 22 | Rank stability and backtest error reported |
-| Dashboard, one-page memo, polished repo | Nov 29 | A friend can reproduce it from the README |
+| Charter, KPI definitions, backlog, interview requests sent | Nov 1 | All four exist in the repo |
+| Clean permit database with data dictionary | Nov 8 | One command rebuilds it from the raw PDFs |
+| SQL queries and EDA notebook | Nov 15 | Five findings, each with a number |
+| Context layers and source triangulation | Nov 22 | Written reason for the primary source of each metric |
+| Opportunity score, sensitivity analysis, forecast | Nov 29 | Rank stability and backtest error reported |
+| Dashboard, one-page memo, polished repo | Dec 6 | A friend can reproduce it from the README |
 
 ## 6. Data sources
 
-*List each source, what you will use it for, and one known weakness. Start from the table in the README.*
+| Source | Use | Known weakness |
+| --- | --- | --- |
+| City monthly permit reports, issued and finaled (PDF) | Core dataset | Layout quirks; permits split across pages; older months may be unavailable |
+| City residential pipeline report (PDF, Aug 2025 edition) | Remaining building ahead | May overlap with permits already issued |
+| Zillow Home Value Index (CSV) | Price context | An index, not actual sale prices |
+| Census ACS 5-year (API) | Income, household size, tenure | Lags fast-growing areas; has margins of error |
 
 ## 7. Assumptions
 
-*What are you assuming that could be wrong? Example: "Finaled permits for new single-family homes indicate households moving in within a few months."*
-
--
+- A finaled new single-family permit means a household moves in within a few months.
+- Base-case occupancy of finished homes is 90% (tested at 80% and 100%).
+- The permit reports are complete and accurate for the months they cover.
 
 ## 8. Risks and responses
 
 | Risk | Likelihood (L/M/H) | Impact (L/M/H) | Response |
 | --- | --- | --- | --- |
+| Only recent months are available (older links return 404) | M | H | Confirm available months in Week 2; shrink the trend and forecast work to match |
 | PDF layout changes between months | M | H | Parse a sample of every month early; log exceptions |
-| Some months are missing or labeled inconsistently | H | M | Build the manifest by hand; state gaps in the memo |
-| Public sources disagree on prices and income | H | M | Triangulation table; pick one primary source per metric |
-| Interviews fall through | M | M | Send five requests; ask the city's public staff for questions by email |
+| Permits split across page breaks or text collides | H | M | Parse words by position, as one stream across pages |
+| Public sources disagree on prices and income | H | M | Triangulation table; one primary source per metric |
+| Interviews fall through | M | M | Send five requests; use public city staff material as a fallback |
 | Scope creep | H | M | Weeks 4 and 5 are stretch goals; drop them before the validation work |
 
 ## 9. Stakeholders and interviews
