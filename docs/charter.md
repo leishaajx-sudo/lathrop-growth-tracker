@@ -68,7 +68,11 @@ Which district of Lathrop has the strongest and most reliable new-housing growth
 
 | Name or role | Why them | Contacted (date) | Interview (date) | Notes file |
 | --- | --- | --- | --- | --- |
-| | | | | |
+| City of Lathrop Economic Development | Official view of growth and business support | Oct 29 | | |
+| Chamber of Commerce | Voice of local small businesses | Oct 29 | | |
+| Reena, realtor | Buyer demand by area | Oct 29 | | |
+| David, realtor | Buyer demand and new-home sales | Oct 29 | | |
+| Local gym (info@ contact) | A small owner's view of choosing a location | Oct 29 | | |
 
 ## 10. How we will work
 
