@@ -45,3 +45,8 @@
 - Done: sent five interview requests, wrote the 12-story backlog (docs/backlog.md) and the risk log (docs/risk_log.md), and logged contacts in the charter.
 - Blocked: nothing.
 - Next: Fri Oct 30 is a catch-up day. Sun Nov 1 is the weekly retro. Follow up with anyone who hasn't replied on Thu Nov 5.
+
+## Mon Nov 9
+- Done: back after a week off sick. City Economic Development replied and offered a call; booked Thu Nov 12 at 2:00 PM. Added the interview notes template.
+- Blocked: lost Nov 2 to 8, so the parser work moved to this week. Plan finish moved from Dec 6 to Dec 13.
+- Next: Tue Nov 10, build data/manifest.csv and confirm which months the city still lists.
