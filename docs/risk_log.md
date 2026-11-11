@@ -12,3 +12,6 @@ Updated every Sunday retro. L = likelihood, I = impact (H, M, L). Status: Open, 
 | R6 | Interviews fall through | M | M | No replies by Thu Nov 5 | Send one short follow-up; otherwise use public city staff material and say so | Open |
 | R7 | I fall behind schedule | H | M | Two working days missed in a row | Use Fri and Sat catch-up days; cut Week 4 and 5 items before touching validation | Open |
 | R8 | Conclusions go further than the data supports | M | H | A recommendation rests on a district with very few permits or only a few months | Show counts next to every figure and state the limit in the memo | Open |
+
+## Update Nov 10, 2026
+- R1 (older months unavailable) has happened. Only Jan to Oct 2026 exists. Mitigation: scope to 10 months (see decision_log.md), ask the city for archives on Nov 12.

@@ -52,3 +52,11 @@ Older links (Dec 2024 and Apr 2025 issued) returned a 404 page for me on Oct 26,
 - A permit can split across a page break: row 1 at the bottom of page 1, rows 2-3 and description at the top of page 2. Parse all pages as one stream, anchored on permit numbers, after dropping repeated headers.
 - extract_tables() returned 3 "tables" on page 2, not one clean grid of permits. Compare both methods in Week 2 before choosing.
 - Full output saved in docs/pdfplumber_test_output.txt
+
+## City permit report availability (checked Nov 10, 2026)
+- The city's permit report page lists Jan to Oct 2026 only: 10 months, 20 PDFs (issued and finaled).
+- 2024 and 2025 report URLs found through search return HTTP 404 (a 282-byte HTML error page, not a PDF). The city appears to have removed them.
+- The Internet Archive Wayback Machine has no snapshot for any of the 9 finaled-report URLs tested.
+- File names are inconsistent (YYYY-MM, YYYY_monthname, M.YY). data/manifest.csv takes the month from the file name using src/build_manifest.py.
+- Consequence: no year-over-year or seasonal analysis. The forecast will be a simple trend with its limits stated.
+- Next: ask City Economic Development (Nov 12 call) whether archived 2024 and 2025 reports exist.
