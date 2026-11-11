@@ -50,3 +50,9 @@
 - Done: back after a week off sick. City Economic Development replied and offered a call; booked Thu Nov 12 at 2:00 PM. Added the interview notes template.
 - Blocked: lost Nov 2 to 8, so the parser work moved to this week. Plan finish moved from Dec 6 to Dec 13.
 - Next: Tue Nov 10, build data/manifest.csv and confirm which months the city still lists.
+
+## Tue Nov 10, 2026
+- Built data/manifest.csv: 20 PDFs (Jan to Oct 2026), each with report type, month, URL, download date and SHA-256 hash.
+- Tested 2024 and 2025 URLs (all 404) and the Wayback Machine (no snapshots). Only 10 months of data exist.
+- Scoped the analysis to Jan to Oct 2026 and logged the decision. Risk R1 is now marked as realized.
+- Next: Wed Nov 11, parser v1 on one issued PDF. Thu Nov 12, 2:00 PM call with Barbara Harb (ask about archived reports first).
